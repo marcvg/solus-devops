@@ -13,6 +13,6 @@ To use docker without `sudo`:
     
     sudo usermod -aG docker $USER
 
-# Kubectl 
+## Kubectl 
     sudo snap install kubectl
 
