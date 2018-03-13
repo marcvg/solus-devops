@@ -2,7 +2,13 @@
 Solus Devops setup guide
 
 ## Git/Maven
-    eopkg it git apache-maven 
+    eopkg it git apache-maven
+
+Configure git:
+
+    git config --global user.name "Your Name"
+    git config --global user.email "you@your-domain.com"
+    git config --global color.ui auto
 
 ## Docker/Minikube
     eopkg it minikube virtualbox-common
