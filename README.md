@@ -2,7 +2,7 @@
 Solus Devops setup guide
 
 ## Git/Maven
-    eopkg it git apache-maven
+    sudo eopkg it git apache-maven
 
 Configure git:
 
@@ -11,9 +11,9 @@ Configure git:
     git config --global color.ui auto
 
 ## Docker/Minikube
-    eopkg it minikube virtualbox-common
+    sudo eopkg it minikube virtualbox-common
 
-    eopkg it docker docker-compose
+    sudo eopkg it docker docker-compose
     
 To use docker without `sudo`:    
     
@@ -23,7 +23,7 @@ To use docker without `sudo`:
     sudo snap install kubectl
 
 ## Go
-    eopkg it golang
+    sudo eopkg it golang
     export GOPATH="$HOME/go"
     
 Add `$GOPATH/bin` to your path.
