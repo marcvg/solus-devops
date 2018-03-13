@@ -1,14 +1,15 @@
 # solus-devops
-Solus Devops Setup
+Solus Devops setup guide
 
 ## Git/Maven
-eopkg it git apache-maven 
+    eopkg it git apache-maven 
 
 ## Docker/Minikube
-eopkg it minikube virtualbox-common
+    eopkg it minikube virtualbox-common
 
-eopkg it docker docker-compose
+    eopkg it docker docker-compose
+    sudo usermod -aG docker $USER
 
 # Kubectl 
-sudo snap install kubectl
+    sudo snap install kubectl
 
