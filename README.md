@@ -8,6 +8,9 @@ Solus Devops setup guide
     eopkg it minikube virtualbox-common
 
     eopkg it docker docker-compose
+    
+To use docker without `sudo`:    
+    
     sudo usermod -aG docker $USER
 
 # Kubectl 
