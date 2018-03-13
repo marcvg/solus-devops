@@ -1,6 +1,11 @@
 # solus-devops
 Solus Devops setup guide
 
+## Editors
+Most popular editors are available. Select the one that suits you best.
+
+    sudo eopkg it atom vscode sublime-text-3 
+
 ## Git/Maven
     sudo eopkg it git apache-maven
 
