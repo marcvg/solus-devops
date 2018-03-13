@@ -16,3 +16,9 @@ To use docker without `sudo`:
 ## Kubectl 
     sudo snap install kubectl
 
+## Go
+    eopkg it golang
+    export GOPATH="$HOME/go"
+    
+Add `$GOPATH/bin` to your path.
+
