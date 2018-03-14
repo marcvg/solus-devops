@@ -49,3 +49,7 @@ Download and unzip to install Spring Tool Suite:
 
   http://download.springsource.com/release/STS/3.9.2.RELEASE/dist/e4.7/spring-tool-suite-3.9.2.RELEASE-e4.7.2-linux-gtk-x86_64.tar.gz
 
+IntelliJ:
+
+    sudo snap install intellij-idea-community
+    sudo snap install intellij-idea-ultimate
