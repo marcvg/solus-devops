@@ -8,8 +8,8 @@ Select the one that suits the job.
 
     sudo eopkg it atom vscode sublime-text-3 
 
-## Git/Maven
-    sudo eopkg it git apache-maven
+## Git/Maven/Gradle
+    sudo eopkg it git apache-maven gradle
 
 Configure git:
 
