@@ -1,5 +1,7 @@
-# solus-devops
-Solus Devops setup guide
+# Setting up Solus for devops
+
+Solus is a rock solid Linux distro from the future. 
+And this is a devops setup recap for devs like you that need get things done.
 
 ## Editors
 Select the one that suits the job.
