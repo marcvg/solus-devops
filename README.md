@@ -37,7 +37,7 @@ Add `$GOPATH/bin` to your path.
 
     sudo eopkg it mongodb mongo-tools
 
-## Eclipse/Spring Tools Suite
+## Java IDE
 
 Download and unzip to install Eclipse Oxygen:
 
