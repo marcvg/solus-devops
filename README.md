@@ -39,9 +39,11 @@ Add `$GOPATH/bin` to your path.
 
 ## Eclipse/Spring Tools Suite
 
-Download and unzip to install Eclipse Neon:
-    http://download.springsource.com/release/ECLIPSE/oxygen/2/eclipse-jee-oxygen-2-linux-gtk-x86_64.tar.gz
+Download and unzip to install Eclipse Oxygen:
+
+http://download.springsource.com/release/ECLIPSE/oxygen/2/eclipse-jee-oxygen-2-linux-gtk-x86_64.tar.gz
         
 Download and unzip to install Spring Tool Suite:    
-    http://download.springsource.com/release/STS/3.9.2.RELEASE/dist/e4.7/spring-tool-suite-3.9.2.RELEASE-e4.7.2-linux-gtk-x86_64.tar.gz
+
+http://download.springsource.com/release/STS/3.9.2.RELEASE/dist/e4.7/spring-tool-suite-3.9.2.RELEASE-e4.7.2-linux-gtk-x86_64.tar.gz
 
