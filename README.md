@@ -79,3 +79,4 @@ To install the latest NodeJS version, type:
 
     nvm install node
 
+Type 'nvm list' to see all NodeJS versions to choose from.
