@@ -71,7 +71,9 @@ IntelliJ: download using the Software Installer (under Third Party) or look for 
 
 ## NodeJS
 
-Install [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating), the NodeJS Version Manager.
+Install [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating), the NodeJS Version Manager:
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 To install the latest NodeJS version, type:
 
