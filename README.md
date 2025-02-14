@@ -17,7 +17,13 @@ Configure git:
     git config --global user.email "you@your-domain.com"
     git config --global color.ui auto
 
-## JVM/Maven/Gradle
+## Go
+    sudo eopkg it golang
+    export GOPATH="$HOME/go"
+    
+Add `$GOPATH/bin` to your path.
+
+## Java JVM/Maven/Gradle
 Open a terminal and install [SdkMan!](https://sdkman.io)
 
     > curl -s "https://get.sdkman.io" | bash
@@ -29,6 +35,26 @@ With SdkMan! installed, type following commands to install Java SDKs:
     > sdk install gradle
 
 Use 'sdk list' to see all SDK's and Java versions that are available.
+
+## Java IDE
+
+Download and unzip to install [latest Eclipse](https://www.eclipse.org/downloads/packages/)
+        
+Download and unzip to install [Spring Tools](https://spring.io/tools)    
+
+IntelliJ: download using the Software Installer (under Third Party) or look for AppImage or Flatpack packages.
+
+## Node.js
+
+Install [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating), the Node.js Version Manager:
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+To install the latest Node.js version, type:
+
+    nvm install node
+
+Type 'nvm list' to see all NodeJS versions to choose from.
 
 ## Docker/Minikube
     sudo eopkg it minikube
@@ -42,11 +68,9 @@ To use docker without `sudo`:
 ## Kubectl 
     sudo eopkg it kubectl
 
-## Go
-    sudo eopkg it golang
-    export GOPATH="$HOME/go"
-    
-Add `$GOPATH/bin` to your path.
+## DBeaver
+
+    sudo eopkg it dbeaver
 
 ## Helm
 Open a terminal and type:
@@ -56,30 +80,6 @@ Open a terminal and type:
     > make
 
 Copy the build executable from '/bin'
-
-## MongoDB
-
-    sudo eopkg it mongodb mongo-tools
-
-## Java IDE
-
-Download and unzip to install [latest Eclipse](https://www.eclipse.org/downloads/packages/)
-        
-Download and unzip to install [Spring Tools](https://spring.io/tools)    
-
-IntelliJ: download using the Software Installer (under Third Party) or look for AppImage or Flatpack packages.
-
-## NodeJS
-
-Install [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating), the NodeJS Version Manager:
-
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-
-To install the latest NodeJS version, type:
-
-    nvm install node
-
-Type 'nvm list' to see all NodeJS versions to choose from.
 
 ## AI Tools
 
