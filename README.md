@@ -80,3 +80,18 @@ To install the latest NodeJS version, type:
     nvm install node
 
 Type 'nvm list' to see all NodeJS versions to choose from.
+
+## AI Tools
+
+### Warp
+
+Download Warp : https://www.warp.dev/download
+
+Fix Warp ignoring `~/.bashrc` (see https://github.com/warpdotdev/Warp/issues/4722):
+
+Add a `~/.bash_profile` file, add `source ~/.bashrc`
+
+### Goose
+
+See https://block.github.io/goose/docs/quickstart/
+
