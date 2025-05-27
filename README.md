@@ -65,6 +65,8 @@ To use docker without `sudo`:
     
     sudo usermod -aG docker $USER
 
+Also check out [K3s](https://k3s.io/) and [KIND](https://kind.sigs.k8s.io/)
+
 ## Kubectl 
     sudo eopkg it kubectl
 
